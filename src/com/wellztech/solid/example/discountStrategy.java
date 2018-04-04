@@ -1,7 +1,7 @@
 package com.wellztech.solid.example;
 
-public class discountStrategy {
+public interface discountStrategy {
 
-
+double getBillAmount(double billAmount);
 
 }
